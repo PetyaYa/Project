@@ -1,0 +1,6 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&display=swap";
+body { font: 17px/1.5 'PT Sans Caption', sans-serif; }
+
+.site-nav, button { font-weight: bold; }
+
+/*# sourceMappingURL=typography.css.map */

@@ -1,0 +1,38 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&display=swap";
+* { padding: 0; margin: 0; }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+html { box-sizing: border-box; }
+
+body { font: 17px/1.5 'PT Sans Caption', sans-serif; }
+
+.site-nav, button { font-weight: bold; }
+
+.site-nav, .site-content { width: 80%; margin: 0 auto; }
+
+.lose-weight { width: 48%; }
+
+.lose-weight-image { width: 52%; }
+
+header { box-shadow: 0 8px 6px -6px #E5E5E5; height: 4em; position: relative; }
+
+nav .heading { font-size: 2.2em; margin: 0; position: absolute; top: 50%; transform: translate(0, -50%); }
+nav ul { margin: 0; padding: 0; list-style: none; text-align: right; }
+nav li { display: inline-block; }
+nav a { display: block; text-decoration: none; color: #333; padding: 1.2em 0.5em 1.2em 0.5em; }
+nav a:hover { border-bottom: 4px solid #23B21F; }
+nav button { padding: 0.7em 3em 0.7em 3em; margin-left: 1em; border-radius: 25px; border: 2px solid #23B21F; background: white; color: #23B21F; }
+nav .hvr-grow { transition-duration: 0.1s; }
+nav .hvr-grow:hover { transform: scale(1.1); }
+
+.site-content { display: flex; padding-top: 4em; }
+.site-content img { padding: 0.2em; }
+.site-content ul { display: flex; padding: 0.4em 0.4em 0.4em 0; list-style: none; border-top: 1px solid #ccc; }
+.site-content li { padding: 0.2em 0.5em 0.2em 0; }
+.site-content a { text-decoration: none; color: #BABABA; }
+.site-content p:first-of-type { padding-bottom: 0.7em; font-size: 2.3em; }
+.site-content p:nth-of-type(2) { padding-bottom: 1em; }
+.site-content a:hover { color: #333; font-weight: bold; padding-top: 0.5em; border-top: 5px solid #23B21F; }
+
+/*# sourceMappingURL=site.css.map */
